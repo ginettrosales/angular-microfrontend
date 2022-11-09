@@ -11,7 +11,7 @@
     "build:client-b": "ng build --prod --single-bundle --project client-b --output-hashing none --vendor-chunk false --output-path src/assets/micro-frontends/client-b",
     "build:shell": "ng build --project shell",
     "test": "ng test",
-    "test:cov": "ng test --no-watch --code-coverage"
+    "test:cov": "ng test --no-watch --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "npx-build-plus:copy-assets": "node copy-wc-polyfill.js && node copy-bundles.js && node projects/client-a/copy-bundles.js && node projects/client-b/copy-bundles.js",
